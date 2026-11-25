@@ -1,1 +1,251 @@
 <!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+            name="description"
+            content="Personal portfolio of Kavish Niravbhai Shah, B.Tech CSE student at JG University."
+        />
+        <title>Kavish Shah | Portfolio</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <!-- ===== NAVBAR ===== -->
+        <header class="navbar">
+            <a href="#home" class="brand">Kavish<span>.</span>Shah</a>
+            <nav>
+                <ul id="nav-links" class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="nav-actions">
+                <button
+                    id="theme-toggle"
+                    class="icon-btn"
+                    aria-label="Switch between dark and light mode"
+                >
+                    Light
+                </button>
+                <button
+                    id="menu-toggle"
+                    class="icon-btn menu-btn"
+                    aria-label="Open menu"
+                    aria-expanded="false"
+                    aria-controls="nav-links"
+                >
+                    Menu
+                </button>
+            </div>
+        </header>
+
+        <main>
+            <!-- ===== HOME ===== -->
+            <section id="home" class="hero">
+                <div class="hero-text">
+                    <p class="hello">Hi, I am</p>
+                    <h1>Kavish Niravbhai Shah</h1>
+                    <p class="role">Computer Science Engineering Student</p>
+                    <p class="intro">
+                        I am a second-year B.Tech student who enjoys turning ideas into working web
+                        pages and small programs. I am learning to build things that are clear,
+                        useful and easy to use.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">See my projects</a>
+                        <a href="#contact" class="btn btn-ghost">Contact me</a>
+                    </div>
+                </div>
+
+                <!-- Student ID card (original hero element) -->
+                <aside class="id-card" aria-label="Student details">
+                    <div class="id-top">
+                        <span class="id-dot"></span><span class="id-dot"></span
+                        ><span class="id-dot"></span>
+                        <span class="id-title">student.profile</span>
+                    </div>
+                    <dl>
+                        <dt>Name</dt>
+                        <dd>Kavish Niravbhai Shah</dd>
+                        <dt>Roll No</dt>
+                        <dd>268451</dd>
+                        <dt>Enrollment No</dt>
+                        <dd>2604842051</dd>
+                        <dt>Division</dt>
+                        <dd id="division">DA</dd>
+                        <dt>Course</dt>
+                        <dd>B.Tech Computer Science Engineering</dd>
+                        <dt>Year</dt>
+                        <dd>2nd Year</dd>
+                        <dt>College</dt>
+                        <dd>JG University</dd>
+                    </dl>
+                </aside>
+            </section>
+
+            <!-- ===== ABOUT ===== -->
+            <section id="about" class="section">
+                <h2>About me</h2>
+                <div class="about-grid">
+                    <p class="about-lead">
+                        I am Kavish, a Computer Science Engineering student at JG University. I like
+                        understanding how software works and building small projects to practise
+                        what I learn in class.
+                    </p>
+                    <div class="about-cards">
+                        <article class="panel">
+                            <h3>Education</h3>
+                            <p>B.Tech in Computer Science Engineering, 2nd Year, JG University.</p>
+                        </article>
+                        <article class="panel">
+                            <h3>Interests</h3>
+                            <p>
+                                Web development, programming, gaming and data-driven problem
+                                solving.
+                            </p>
+                        </article>
+                        <article class="panel">
+                            <h3>Goals</h3>
+                            <p>
+                                To become a skilled software developer, build real-world projects
+                                and keep learning new technologies.
+                            </p>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ===== SKILLS ===== -->
+            <section id="skills" class="section">
+                <h2>Skills</h2>
+                <div class="skills-grid">
+                    <div class="panel">
+                        <h3>Web</h3>
+                        <ul class="chips">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                        </ul>
+                    </div>
+                    <div class="panel">
+                        <h3>Programming</h3>
+                        <ul class="chips">
+                            <li>Python</li>
+                            <li>C</li>
+                            <li>C++</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ===== PROJECTS ===== -->
+            <section id="projects" class="section">
+                <h2>Projects</h2>
+                <div class="projects-grid">
+                    <article class="project">
+                        <h3>GAMEX: Gaming Arena Booking Platform</h3>
+                        <p>
+                            A platform where players can view gaming arenas and book a slot online,
+                            so they do not have to visit or call to check availability.
+                        </p>
+                        <ul class="chips">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                        </ul>
+                        <!-- Edit the technologies above to match what you used -->
+                    </article>
+                    <article class="project">
+                        <h3>Student Performance and Dropout Predictor</h3>
+                        <p>
+                            A machine learning project that studies student data to predict academic
+                            performance and flag students who may be at risk of dropping out.
+                        </p>
+                        <ul class="chips">
+                            <li>Python</li>
+                            <li>Machine Learning</li>
+                            <li>Data Analysis</li>
+                        </ul>
+                        <!-- Edit the technologies above to match what you used -->
+                    </article>
+                </div>
+            </section>
+
+            <!-- ===== CONTACT ===== -->
+            <section id="contact" class="section">
+                <h2>Contact</h2>
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <p>
+                            Have a question or want to work together? Send a message using the form.
+                        </p>
+                        <ul>
+                            <li>
+                                Email:
+                                <span
+                                    ><a href="mailto:kavishnshah9807@gmail.com"
+                                        >kavishnshah9807@gmail.com</a
+                                    ></span
+                                >
+                            </li>
+                            <li>
+                                Phone: <span><a href="tel:+919624593106">+91-9624593106</a></span>
+                            </li>
+                            <li>
+                                GitHub:
+                                <span
+                                    ><a
+                                        href="https://github.com/kavish987"
+                                        target="_blank"
+                                        rel="noopener"
+                                        >github.com/kavish987</a
+                                    ></span
+                                >
+                            </li>
+                        </ul>
+                    </div>
+
+                    <form id="contact-form" class="panel" novalidate>
+                        <div class="field">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" autocomplete="name" />
+                            <small class="error" id="name-error"></small>
+                        </div>
+                        <div class="field">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" autocomplete="email" />
+                            <small class="error" id="email-error"></small>
+                        </div>
+                        <div class="field">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" />
+                            <small class="error" id="subject-error"></small>
+                        </div>
+                        <div class="field">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5"></textarea>
+                            <small class="error" id="message-error"></small>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send message</button>
+                        <p id="form-success" class="success" role="status" hidden></p>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!-- ===== FOOTER ===== -->
+        <footer class="footer">
+            <p>
+                &copy; <span id="year">2026</span> Kavish Niravbhai Shah. Roll No 268451, JG
+                University.
+            </p>
+            <a href="#home">Back to top</a>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>
